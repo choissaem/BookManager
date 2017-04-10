@@ -10,6 +10,8 @@ public class Main {
 		
 		int choice = -1;
 		
+		System.out.println("안녕하세요");
+		
 		while(choice != 0){
 			
 			choice = Display.selectMenu();
@@ -28,12 +30,12 @@ public class Main {
 				mg.deleteBook();
 				break;
 			case 0:
-				System.out.println("종료 합니다.");
+				System.out.println("醫낅즺 �빀�땲�떎.");
 				System.exit(0);
 				break;
 			
 			default:
-				System.out.println("다시 입력해주세요");
+				System.out.println("�떎�떆 �엯�젰�빐二쇱꽭�슂");
 			}
 		}
 			
